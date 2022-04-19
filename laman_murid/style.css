@@ -1,0 +1,108 @@
+body {
+    background-color: #1a222a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shop_page_title_row {
+    padding-bottom: 20px;
+}
+
+.shop_page_category .section_title {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+.shop_more_btn {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: black;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+
+.shop_feature_products .col-6 {
+    margin-bottom: 30px;
+}
+
+.product_featured_tile {
+    position: relative;
+    background-color: white;
+    border: 1px solid rgba(26, 34, 42, 0.25);
+    padding: 15px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+}
+
+.product_featured_tile .product_brand {
+    width: 25px;
+}
+
+.product_featured_tile .product_img {
+    position: relative;
+    margin-top: 20px;
+    display: block;
+}
+
+.product_featured_tile .product_img:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    bottom: -8px;
+    border-radius: 100%;
+    filter: blur(5px);
+}
+
+.product_featured_tile .product_title {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-top: 15px;
+}
+
+.product_featured_tile .product_cat {
+    display: block;
+    color: black(255, 255, 255, 0.5);
+    font-size: 9px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.product_featured_tile .product_price {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+/** End Section Body Part 2 **/
+
+.yt {
+    position: fixed;
+    padding: 7px 10px 7.5px 10px;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    z-index: 99999;
+}
+
+.yt:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
